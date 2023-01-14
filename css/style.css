@@ -39,7 +39,7 @@ body {
 }
 
 .donate-today {
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ body {
     border-radius: 5px;
 }
 
-input {
+.input-style {
     width: 100%;
     margin: 20px 0px;
     padding: 10px 0px;
@@ -81,7 +81,7 @@ input {
     font-size: 17px;
 }
 
-input:focus {
+.input-style:focus {
     outline: none;
 }
 
@@ -109,4 +109,61 @@ input:focus {
 
 .plan3-item {
     background-color: #FFF4D6
+}
+
+
+.img {
+    width: 456px;
+    height: 320px;
+}
+
+.get-touch-container {
+    margin-bottom: 70px;
+}
+
+.get-touch {
+    padding: 60px 200px;
+    background-color: #FFF4D6;
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.input-get-touch {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+    flex: 1;
+}
+
+.input-get-touch:focus {
+    outline: none;
+}
+
+.btn-get-touch {
+    background-color: #E34C26;
+    padding: 10px 30px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-family: bold;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0B0D17;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    color: tomato;
+}
+
+footer p {
+    color: white;
 }
