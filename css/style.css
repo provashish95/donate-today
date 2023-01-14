@@ -19,7 +19,12 @@ body {
 }
 
 .banner-title {
-    font-size: 45px;
+    font-size: 50px;
+}
+
+.title-size {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .btn {
@@ -30,4 +35,78 @@ body {
     font-family: bold;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.donate-today {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.amount-item {
+    text-align: center;
+    font-weight: 800;
+    color: #747070;
+    font-size: 30px;
+    margin: 60px 0px;
+}
+
+.amount {
+    padding: 30px 10px;
+    margin: 0px 8px;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+.amount-special {
+    border: 2px solid #e34c26;
+    background-color: #ffcdcd;
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: #EFEFEF;
+    border-width: 1px;
+    font-size: 17px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-item {
+    text-align: left;
+    width: 25%;
+    padding: 60px 15px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.plan1-item {
+    background-color: #EDF5F6
+}
+
+.plan2-item {
+    background-color: #FFEEEE
+}
+
+.plan3-item {
+    background-color: #FFF4D6
 }
