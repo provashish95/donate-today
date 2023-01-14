@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.banner {
+    background-image: url('../images/donate-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section {
+    text-align: center;
+    color: white;
+}
+
+.banner-title {
+    font-size: 45px;
+}
+
+.btn {
+    background-color: #E34C26;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    font-family: bold;
+    color: white;
+    font-size: 20px;
+}
